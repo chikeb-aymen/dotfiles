@@ -96,3 +96,9 @@ alias vpsh='vercel push --environment=production'
 # ----------------------
 alias vim='nvim'
 alias nv='nvim'
+# ----------------------
+# Reload Aliases
+# ----------------------
+alias config='sh ~/dotfiles/config.sh'
+alias reload='source ~/.zshrc'
+alias reload-dotfiles='sh ~/dotfiles/reload-dotfiles.sh'
